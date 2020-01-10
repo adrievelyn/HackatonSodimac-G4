@@ -5,6 +5,7 @@ import Step from "@material-ui/core/Step";
 import StepLabel from "@material-ui/core/StepLabel";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import SatisfactionClients from "./SatisfactionClients"
 
 const useStyles = makeStyles((theme) => ({
    root: {
@@ -39,7 +40,7 @@ function getStepContent(step) {
       case 3:
          return "Tu pedido está listo para ser despachado";
       case 4:
-         return "Nathaly, el camión va en ruta patente AFNA10 y llegará en pocos minutos";
+         return "¡Tus productos están en ruta hacia la dirección de despacho! Serán entregados por el camión de patente AFNA10 y llegará en unos pocos minutos.";
       case 5:
          return "Despacho entregado, Por favor evalúa nuestro servicios";
       case 6:
@@ -100,6 +101,8 @@ export default function CustomizedSteppers() {
                <div>
                   <Typography className={classes.instructions}>
                      Despacho entregado, te invitamos a realizar nuestra encuesta de satisfacción
+                     <SatisfactionClients/> 
+
                   </Typography>
                   <Button onClick={handleReset} className={classes.button}>
                      Reset

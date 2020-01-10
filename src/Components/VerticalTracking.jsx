@@ -7,6 +7,7 @@ import StepContent from '@material-ui/core/StepContent';
 // import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import SatisfactionClients from "./SatisfactionClients"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -46,8 +47,8 @@ function getStepContent(step) {
    case 3:
       return "Hemos preparado tu orden, ahora estamos gestionando el despacho a tu dirección. ";
    case 4:
-      return "¡Tus productos están en ruta hacia la dirección de despacho!";
-   case 5:
+    return "¡Tus productos están en ruta hacia la dirección de despacho! Serán entregados por el camión de patente AFNA10 y llegará en unos pocos minutos.";
+    case 5:
       return "Orden en proceso de entrega";
    default:
       return "Orden de despacho finalizada";
@@ -97,7 +98,10 @@ export default function VerticalTracker() {
       </Stepper>
       {activeStep === steps.length && (
         <Paper square elevation={0} className={classes.resetContainer}>
-          <Typography>Despacho entregado, te invitamos a realizar nuestra encuesta de satisfacción</Typography>
+          <Typography>Despacho entregado, te invitamos a realizar nuestra encuesta de satisfacción
+          <SatisfactionClients/> 
+
+          </Typography>
           {/* <Button onClick={handleReset} className={classes.button}>
             Reset
           </Button> */}
