@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hackathon-Sodimac/static/css/main.e14705f3.chunk.css",
+    "main.js": "/hackathon-Sodimac/static/js/main.28faedf2.chunk.js",
+    "main.js.map": "/hackathon-Sodimac/static/js/main.28faedf2.chunk.js.map",
+    "runtime-main.js": "/hackathon-Sodimac/static/js/runtime-main.afe88b0c.js",
+    "runtime-main.js.map": "/hackathon-Sodimac/static/js/runtime-main.afe88b0c.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/hackathon-Sodimac/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.20a8f868.chunk.js": "/hackathon-Sodimac/static/js/2.20a8f868.chunk.js",
+    "static/js/2.20a8f868.chunk.js.map": "/hackathon-Sodimac/static/js/2.20a8f868.chunk.js.map",
+    "index.html": "/hackathon-Sodimac/index.html",
+    "precache-manifest.3e9b1328445e403a3cb41a176100bf9b.js": "/hackathon-Sodimac/precache-manifest.3e9b1328445e403a3cb41a176100bf9b.js",
+    "service-worker.js": "/hackathon-Sodimac/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/hackathon-Sodimac/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.e14705f3.chunk.css.map": "/hackathon-Sodimac/static/css/main.e14705f3.chunk.css.map",
+    "static/js/2.20a8f868.chunk.js.LICENSE": "/hackathon-Sodimac/static/js/2.20a8f868.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afe88b0c.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.20a8f868.chunk.js",
+    "static/css/main.e14705f3.chunk.css",
+    "static/js/main.28faedf2.chunk.js"
+  ]
+}
